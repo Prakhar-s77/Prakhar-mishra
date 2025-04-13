@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakhar Mishra - E-commerce</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #333; color: white; padding: 1rem; text-align: center; }
+        nav { background-color: #444; padding: 1rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; }
+        .products, .booking { padding: 2rem; }
+        .product { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1rem; }
+        iframe { width: 100%; height: 800px; border: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prakhar Mishra</h1>
+        <p>Your Trusted Online Store</p>
+    </header><nav>
+    <a href="#products">Products</a>
+    <a href="#booking">Book Now</a>
+</nav>
+
+<section class="products" id="products">
+    <h2>Products</h2>
+    <div class="product">
+        <h3>Sample Product 1</h3>
+        <p>Price: ₹500</p>
+        <a href="upi://pay?pa=8957927754@ptyes&pn=Prakhar%20Mishra&am=500&cu=INR">
+            <button>Pay ₹500 via UPI</button>
+        </a>
+    </div>
+    <div class="product">
+        <h3>Sample Product 2</h3>
+        <p>Price: ₹1000</p>
+        <a href="upi://pay?pa=8957927754@ptyes&pn=Prakhar%20Mishra&am=1000&cu=INR">
+            <button>Pay ₹1000 via UPI</button>
+        </a>
+    </div>
+</section>
+
+<section class="booking" id="booking">
+    <h2>Book a Product</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeneA_2NfZMsLQ0WypuOXI354cPGsu9s0LbD2brMjwsLOpo2w/viewform?usp=dialog" allowfullscreen></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2025 Prakhar Mishra. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
